@@ -50,9 +50,10 @@ let arrayNum = [8, 10, 20, 15, 2];
 
 console.log(
   newFind(arrayNum, (elem, i, array) => {
-    if (elem === 8) {
+    if (elem === 10) {
       return elem;
     }
+    else return undefined
   })
 );
 
