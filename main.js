@@ -69,7 +69,7 @@ console.log(newIndexOf("Minas Gerais", arrayEstados, 1));
 
 import { newReduce, callbackReduce } from "./newReduce.js";
 
-let arrayValores = [1, 2, 3, 4, 5];
+let arrayValores = [10, 50, 40, 5, 1];
 
 console.log(newReduce(arrayValores, callbackReduce, 0));
 

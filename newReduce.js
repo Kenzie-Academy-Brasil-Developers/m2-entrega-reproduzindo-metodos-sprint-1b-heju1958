@@ -7,9 +7,9 @@ function newReduce(array, callback, valorInicial) {
       soma = callback(soma, array[i]);
     }
     return soma;
-  } else if (valorInicial === 0) {
+  } else if (valorInicial === undefined) {
     for (let i = 1; i < array.length; i++) {
-      soma = callback(soma, array[0]);
+      soma = callback(array[i]);
     }
     return soma;
   }
