@@ -52,14 +52,13 @@ console.log(
   newFind(arrayNum, (elem, i, array) => {
     if (elem === 10) {
       return elem;
-    }
-    else return undefined
+    } else return undefined;
   })
 );
 
 //.......................................................//
 
-import { newIndexOf } from "./newIndexOf.js"
+import { newIndexOf } from "./newIndexOf.js";
 
 let arrayEstados = ["Rio", "Minas Gerais", "Paraná", "Pernanbuco"];
 
